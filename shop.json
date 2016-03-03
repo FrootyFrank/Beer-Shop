@@ -1,0 +1,32 @@
+﻿{
+	"Beer" : {
+		"model":"beer",
+		"price": 20.5,
+		"products": {
+			"Beer": {
+				"model":"beerp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "cold",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Beer" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : true,
+					"effects": [
+					{
+						"affectStat" : "thirst",
+						"amount" : -.9,
+                        "affectStat" : "happiness",
+						"amount" : 0.6
+					}]
+						
+					}
+				}
+			}
+		}
+	}
+}
